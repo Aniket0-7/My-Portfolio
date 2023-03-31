@@ -81,11 +81,11 @@ button{
     cursor: pointer;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:650px){
     .c-wrapper{
         flex-direction: column;
         position: relative;
-        top: 11rem;
+        top: 8rem;
     }
     .c-title{
         font-size: 30px;
