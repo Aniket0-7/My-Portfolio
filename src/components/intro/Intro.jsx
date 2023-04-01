@@ -3,26 +3,26 @@ import Me from "../../img/me.png";
 
 
 const Intro = () => {
-    return(
-        <div className="i" id="intro">
-          <div className="i-left">
-            <div className="i-wrapperleft">
-                <h2 className="i-intro"> Hi There, I'm </h2>
-                <h1 className="i-name"> Aniket Singh </h1>
-                <div className="i-title">
-                    <div className="i-title-wrapper">
-                    <div className="i-title-item">Web Developer</div>
-                    <div className="i-title-item">Gamer</div>
-                    <div className="i-title-item"> Photographer</div>
-                    <div className="i-title-item"> Content Creator</div>
-                    <div className="i-title-item">Photo Editor</div>
-                    </div>
-                </div>
-                <p className="i-desc">
-                I am a positive, enthusiastic and competent Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes.
-                </p>
+  return (
+    <div className="i" id="intro">
+      <div className="i-left">
+        <div className="i-wrapperleft">
+          <h2 className="i-intro"> Hi There, I'm </h2>
+          <h1 className="i-name"> Aniket Singh </h1>
+          <div className="i-title">
+            <div className="i-title-wrapper">
+              <div className="i-title-item">Web Developer</div>
+              <div className="i-title-item">Gamer</div>
+              <div className="i-title-item"> Photographer</div>
+              <div className="i-title-item"> Content Creator</div>
+              <div className="i-title-item">Photo Editor</div>
             </div>
-            <svg
+          </div>
+          <p className="i-desc">
+            I am a positive, enthusiastic and competent Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes.
+          </p>
+        </div>
+        <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -78,13 +78,13 @@ const Intro = () => {
             </g>
           </g>
         </svg>
-          </div>
-          <div className="i-right">
-          <div className="i-bg"> </div>
-            <img src={Me} alt="" className="i-img"/>
-          </div>
-        </div>
-    )
+      </div>
+      <div className="i-right">
+        <div className="i-bg"> </div>
+        <img src={Me} alt="" className="i-img" />
+      </div>
+    </div>
+  )
 }
 
 export default Intro 
