@@ -2,16 +2,21 @@
     margin:0;
     padding: 0;
     width: 100%;
-    height: 7rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+
+   
 }
+
 .socialmedia ul {
   
     display: flex;
-    gap: 10px;
+    gap: 30px;
     justify-content: flex-start;
-    padding-bottom: 20px;
-    position: absolute;
-    margin-left: 10px;
+   
     
 }
 
@@ -29,131 +34,59 @@ nav{
     background-color: white;
     height: 69px;
     width: 100%;
+    z-index: 3;
 }
-
-.n-items ul {
-    height: 7rem;
+.nav-items{
     display: flex;
-    justify-content:flex-start ;
-    gap: 10rem;
+    justify-content: center;
     align-items: center;
-    margin-left: 7rem;
-  
+    gap: 40px;
+    margin-left:auto ;
+    margin-right: auto;
+    
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.link{
-    font-weight: 400;
-    font-size: 22px;
-    text-decoration: none;
-    color: black;
+.menu{
+    display: none;
+    
 }
 
-.hamburger-menu{
-display: none;
-}
-.crossicon1{
+.close{
     display: none;
 }
 
-@media (max-width:480px){
+
+
+
+
+
+@media (max-width:580px){
+
     .n{
-        height: 3rem;
+        margin: 0;
+        justify-content: space-between;
     }
-    .link1{
-        color: white;
-        font-size: 2.5rem;
-        margin-top: 10px;
-        align-items: center;    
-    }
-    .link2{
-        color: white;
-        font-size: 2.5rem;
-        
-        align-items: center; 
-    
-    
-    }
-    .link3{
-        color: white;
-        font-size: 2.5rem;
-        
-        align-items: center; 
-        
-    
-    
-    }
-    .n-items ul {
-        display: flex;
-        flex-flow: column nowrap;
-        gap:30px;
-        justify-content: flex-start;
-        align-items: center;
-        margin-top: 10px;
-        font-weight: 400;
-        color: white;
-        flex: 1;
-    
-        
-    }
-    .close1{
-        margin-right: 17px;
+    .nav-items{
+        display: none;
     }
 
+    .menu{
+        display:block;
+        margin-right: 20px;
+    }
+    .menu1{
+        display:none;
+    }
     .close{
         display: none;
     }
-    .open1{
-        display: none;
+    .close1{
+        display: block;
+        padding: 0px 20px;
     }
-    .n-items{
-        display: none;
-    }
-    .n-items1{
-        display: flex;
-        flex: 1;
-        flex-direction:column ;
-       
-        justify-content:space-around;
-        width: 100%;
-        
-        color: white; 
-        background-color:rgb(42, 108, 214);
-        position: absolute;
-        top: 50px;
-        height: 40% ;
-        align-items: center;
-     }
-     .n-items1 ul{
-        margin-top: 20px;
-        align-items: center;
-        padding: 10px 30px ;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 20px;
-     }
-    
-    .socialmedia{
-        display: flex;
-        flex: 1;
-        height: 4rem;
-        align-items: center;
-
-        
-   }
-   .hamburger-menu{
-    display:flex;
-    flex: 1;
-    justify-content: flex-end;
-    margin-right: 20px;
-    width: 100%;
-    height: 30px;
-}
-.socialmedia ul{
-    margin-top: 30px;
-    gap: 20px;
-    
-}
-
 }

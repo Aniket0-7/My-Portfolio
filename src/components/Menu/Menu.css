@@ -1,0 +1,56 @@
+.Menu{
+width: 300px;
+height: 100vh;
+position: fixed;
+background-color: rgb(26, 101, 207);
+top: 60px;
+right: 0;
+z-index: 2;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.5s ease;
+}
+.Menu1{
+width: 300px;
+height: 100vh;
+position: fixed;
+background-color: rgb(26, 101, 207);
+top: 60px;
+right: -300px;
+z-index: 2;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.5s ease;
+}
+.Menu1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.Menu1 ul li{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.Menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.Menu ul li{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,0 +1,63 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: bisque;
+    width: 19rem;
+    height: 540px;
+    padding: 0 2rem 2rem 2rem;
+    border-radius: 10px;
+    
+  }
+  
+  .card img {
+    margin-bottom: 70px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .card h2 {
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+  
+  .card p {
+    margin: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card .btnn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+
+  @media screen and (max-width:600px){
+    .card{
+        width: 10rem;
+        height: 440px;
+      
+        
+    }
+    .card .btnn{
+      gap: 5px;
+      
+    }
+    .card img {
+    margin-bottom: 0px;
+    padding-top: 50px;
+    width: 100%;
+    border-radius: 0;
+  }
+  .card p {
+    margin: 0;
+    margin-top: 0rem;
+    margin-bottom: 7px;
+  }
+    
+
+  }

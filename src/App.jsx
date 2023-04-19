@@ -7,6 +7,8 @@ import "./App.css"
 
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
+import Projects from "./components/Projects/Projects";
+
 const App = () => {
 
     return (<>
@@ -15,6 +17,7 @@ const App = () => {
         <div className="sections">
         <Intro  />
         <About/>
+        <Projects/>
         <Contact />
         </div>
     </div>

@@ -1,0 +1,19 @@
+.carousel{
+    
+    height: 80%;
+    width: 500px;
+   
+}
+
+
+
+@media screen and (max-width:600px){
+    .carousel{
+    
+        height: 80%;
+       width:450px;
+       padding: 0 18px;
+       padding-right: 20px;
+    }
+    
+  }
